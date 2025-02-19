@@ -1,4 +1,4 @@
-# creative coding sketchbook
+# digital sketchbook
 
 A collection of experiments.
 
