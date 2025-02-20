@@ -48,9 +48,9 @@ for PROJECT_DIR in "$BASE_DIR"/*/; do
     
     # Convert and resize image
     if [[ "$FILE_EXT" == "gif" ]]; then
-        ffmpeg -y -i "$OUTPUT_FILE" -vf "scale=200:200:flags=lanczos" "$THUMBNAIL_FILE"
+        ffmpeg -y -i "$OUTPUT_FILE" -vf "scale=300:300:flags=lanczos" "$THUMBNAIL_FILE"
     else
-        convert "$OUTPUT_FILE" -resize 200x200^ -gravity center -extent 200x200 "$THUMBNAIL_FILE"
+        convert "$OUTPUT_FILE" -resize 300x300^ -gravity center -extent 300x300 "$THUMBNAIL_FILE"
     fi
 
     # Verify if the file was created successfully
