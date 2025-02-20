@@ -35,14 +35,14 @@ for PROJECT_DIR in "$BASE_DIR"/*/; do
         continue
     fi
 
-    THUMBNAIL_FILE="README/${PROJECT_NAME}.jpg"
     FILE_EXT="${OUTPUT_FILE##*.}"
+    THUMBNAIL_FILE="README/${PROJECT_NAME}.${FILE_EXT}"
 
     echo "Processing $OUTPUT_FILE -> $THUMBNAIL_FILE"
     
     # Convert and resize image
     if [[ "$FILE_EXT" == "gif" ]]; then
-        ffmpeg -y -i "$OUTPUT_FILE" -vf "scale=200:200:force_original_aspect_ratio=decrease" -frames:v 1 "$THUMBNAIL_FILE"
+        ffmpeg -y -i "$OUTPUT_FILE" -vf "scale=200:200:force_original_aspect_ratio=decrease" "$THUMBNAIL_FILE"
     else
         convert "$OUTPUT_FILE" -resize 200x200^ -gravity center -extent 200x200 "$THUMBNAIL_FILE"
     fi
