@@ -1,10 +1,9 @@
 # playbook
 
-A collection of digital sketches. Blender, P5.js, Godot ... anything goes. Click a thumbnail below to read more about each sketch.
+A collection of digital sketches. Blender, P5.js, Godot ... anything goes. Click a thumbnail below to read more about each sketch. 
 
-## Notes
-Beyond a (very) few exceptions. Nothing in here should be larger than 5mb.
-Check with `find . -type f -size +5M ! -path '*/node_modules/*'`
+Inside the `src` folder for each project you'll find the source file. 
+
 
 |  |  |  |
 |---|---|---|
@@ -15,4 +14,8 @@ Check with `find . -type f -size +5M ! -path '*/node_modules/*'`
 | [![](README/the-tiniest-bar.jpg)](sketches/the-tiniest-bar/) | [![](README/wasteland-temple.jpg)](sketches/wasteland-temple/) |  | 
 
 
-(Generated with [readme generator](./export-scripts/generate-readme.sh))
+Generated with the [readme generator](./export-scripts/generate-readme.sh).
+
+## Notes
+Beyond a (very) few exceptions. Nothing in here should be larger than 5mb.
+Check with `find . -type f -size +5M ! -path '*/node_modules/*'`
