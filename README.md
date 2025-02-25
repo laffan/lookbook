@@ -1,6 +1,6 @@
 # playbook
 
-A collection of digital media experiments.  
+A collection of digital sketches. Blender, P5.js, Godot ... anything goes. Click a thumbnail below to read more about each sketch.
 
 ## Notes
 Beyond a (very) few exceptions. Nothing in here should be larger than 5mb.
