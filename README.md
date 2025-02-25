@@ -1,16 +1,12 @@
-# digital sketchbook
+# playbook
 
-A collection of experiments.
-
-## Exporting
-
-Export scripts have been moved to `export-scripts/README.md`.
+A collection of digital media experiments.  
 
 ## Notes
 Beyond a (very) few exceptions. Nothing in here should be larger than 5mb.
 Check with `find . -type f -size +5M ! -path '*/node_modules/*'`
 
-
+## Sketches
 |  |  |  |
 |---|---|---|
 | [![](README/603-float.jpg)](sketches/603-float/) | [![](README/desert-tent.jpg)](sketches/desert-tent/) | [![](README/dusty-temple.jpg)](sketches/dusty-temple/) | 
