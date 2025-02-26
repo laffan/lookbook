@@ -4,3 +4,6 @@ This came after my first trial use of [Pattern Nodes](https://www.lostminds.com/
 
 
 ![](./src/output-lit.mp4)
+
+The original image.
+![](./src/rotate-cubes.svg)

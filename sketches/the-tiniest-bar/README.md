@@ -1,6 +1,6 @@
 # The Tiniest Bar
 
-This is my first attempt at using some snapshots of a shipping container from an afternoon walk to texture an invented world. Results ... mixed.
+Used a few snapshots of a shipping container near our house to texture an invented (and very lonely) world. 
 
 ![The Tiniest Bar](./src/render.jpg)
 
