@@ -1,4 +1,4 @@
-# playbook
+# lookbook
 
 A collection of digital sketches. Blender, P5.js, Godot ... anything goes. Click a thumbnail below to read more about each sketch. 
 
